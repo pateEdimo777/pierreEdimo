@@ -1,0 +1,114 @@
+.flex-box {
+  height: 100vh;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-box a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  margin: 4px 0 4px 0;
+}
+
+.flex-box i {
+  color: #2da1c6;
+  font-size: 16px;
+}
+
+.flex-box .space-between {
+  width: 5%;
+  padding: 20px 0 20px 0;
+}
+
+.flex-box .space-between hr {
+  height: 100%;
+  width: 0;
+  border: 1px solid #2da1c6;
+}
+
+.flex-box .vertical-space {
+  height: 20px;
+}
+
+.flex-box p {
+  margin: 4px 0 4px 0;
+  font-size: 13px;
+}
+
+.flex-box .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-box .image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.flex-box .section-title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #2da1c6;
+}
+
+.flex-box .my-col-1 {
+  width: 40%;
+}
+
+.flex-box .my-col-1 li {
+  font-size: 13px;
+}
+
+.flex-box .my-col-2 {
+  width: 55%;
+}
+
+.flex-box .my-col-2 p span {
+  font-weight: bold;
+}
+
+.anschreiben-container {
+  height: 100vh;
+}
+
+.anschreiben-container p {
+  font-size: 13px;
+  margin: 4px 0 4px 0;
+}
+
+.anschreiben-container i {
+  color: #2da1c6;
+  font-size: 16px;
+}
+
+.anschreiben-container a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  margin: 4px 0 4px 0;
+}
+
+.anschreiben-container .space-between {
+  height: 10px;
+}
+
+.anschreiben-container .datum {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=global.css.map */
